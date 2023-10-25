@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0451452AE8699100B1921A /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0451442AE8699100B1921A /* LinkedList.cpp */; };
 		3F4255D92A73677700F8C384 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F4255D82A73677700F8C384 /* main.cpp */; };
+		3FC3C50F2AE8529500699329 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3C50E2AE8529500699329 /* World.cpp */; };
+		3FC6434D2A7B968D00CA412C /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6434C2A7B968D00CA412C /* vector.cpp */; };
+		3FC643502A7B975C00CA412C /* libraylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC6434F2A7B974700CA412C /* libraylib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F0451442AE8699100B1921A /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedList.cpp; path = util/LinkedList.cpp; sourceTree = "<group>"; };
 		3F4255D52A73677700F8C384 /* VerletModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VerletModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4255D82A73677700F8C384 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3F4255E02A7367BF00F8C384 /* libraylib.4.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libraylib.4.2.0.dylib; path = ../../../../opt/homebrew/Cellar/raylib/4.5.0/lib/libraylib.4.2.0.dylib; sourceTree = "<group>"; };
+		3FA33B972A736F000043BCA7 /* Applications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Applications; path = ../../../../Applications; sourceTree = "<group>"; };
+		3FC3C50E2AE8529500699329 /* World.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		3FC3C5102AE852F700699329 /* settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		3FC643482A7B8F8800CA412C /* libraylib.4.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libraylib.4.5.0.dylib; path = "../../Downloads/raylib-4.5.0_macos/lib/libraylib.4.5.0.dylib"; sourceTree = "<group>"; };
+		3FC6434C2A7B968D00CA412C /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		3FC6434E2A7B973200CA412C /* raylib-4.5.0_macos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "raylib-4.5.0_macos"; path = "../../Downloads/raylib-4.5.0_macos"; sourceTree = "<group>"; };
+		3FC6434F2A7B974700CA412C /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = "../../Downloads/raylib-4.5.0_macos/lib/libraylib.a"; sourceTree = "<group>"; };
+		3FE8978E2A7398540054DDED /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		3FE897902A7398610054DDED /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		3FE897922A73986A0054DDED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3FE897942A7398A80054DDED /* abck */ = {isa = PBXFileReference; lastKnownFileType = folder; name = abck; path = ../../Desktop/abck; sourceTree = "<group>"; };
+		3FE897972A739A190054DDED /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = ../../../../opt/homebrew/Cellar/raylib/4.5.0/lib/libraylib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC643502A7B975C00CA412C /* libraylib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +62,7 @@
 			children = (
 				3F4255D72A73677700F8C384 /* VerletModel */,
 				3F4255D62A73677700F8C384 /* Products */,
+				3F4255DF2A7367BF00F8C384 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +78,29 @@
 			isa = PBXGroup;
 			children = (
 				3F4255D82A73677700F8C384 /* main.cpp */,
+				3F0451442AE8699100B1921A /* LinkedList.cpp */,
+				3FC6434C2A7B968D00CA412C /* vector.cpp */,
+				3FC3C50E2AE8529500699329 /* World.cpp */,
+				3FC3C5102AE852F700699329 /* settings.h */,
 			);
 			path = VerletModel;
+			sourceTree = "<group>";
+		};
+		3F4255DF2A7367BF00F8C384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6434F2A7B974700CA412C /* libraylib.a */,
+				3FC6434E2A7B973200CA412C /* raylib-4.5.0_macos */,
+				3FC643482A7B8F8800CA412C /* libraylib.4.5.0.dylib */,
+				3FE897972A739A190054DDED /* libraylib.a */,
+				3FE897942A7398A80054DDED /* abck */,
+				3FE897922A73986A0054DDED /* Cocoa.framework */,
+				3FE897902A7398610054DDED /* IOKit.framework */,
+				3FE8978E2A7398540054DDED /* OpenGL.framework */,
+				3FA33B972A736F000043BCA7 /* Applications */,
+				3F4255E02A7367BF00F8C384 /* libraylib.4.2.0.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC6434D2A7B968D00CA412C /* vector.cpp in Sources */,
 				3F4255D92A73677700F8C384 /* main.cpp in Sources */,
+				3F0451452AE8699100B1921A /* LinkedList.cpp in Sources */,
+				3FC3C50F2AE8529500699329 /* World.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +283,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../Downloads/raylib-4.5.0_macos/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/raylib/4.5.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,6 +296,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../Downloads/raylib-4.5.0_macos/include\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/raylib/4.5.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
